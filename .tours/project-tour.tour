@@ -1,0 +1,56 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Ipload Project Tour - جولة في مشروع Ipload",
+  "steps": [
+    {
+      "file": "README.md",
+      "description": "مرحباً بك في Ipload! هذا هو ملف README الرئيسي الذي يحتوي على معلومات المشروع.\n\nWelcome to Ipload! This is the main README file containing project information.",
+      "line": 1
+    },
+    {
+      "file": "package.json",
+      "description": "ملف تكوين المشروع الذي يحتوي على المكتبات والإعدادات.\n\nProject configuration file containing dependencies and settings.",
+      "line": 1
+    },
+    {
+      "file": "src/index.js",
+      "description": "ملف الخادم الرئيسي. هنا يتم تكوين Express والمسارات (Routes).\n\nMain server file. Here Express and routes are configured.",
+      "line": 1
+    },
+    {
+      "file": "src/index.js",
+      "description": "إعداد multer لرفع الملفات. يتم تحديد مكان حفظ الملفات وطريقة تسميتها.\n\nMulter configuration for file uploads. Storage location and naming are defined here.",
+      "line": 16
+    },
+    {
+      "file": "src/index.js",
+      "description": "نقطة النهاية للحصول على عنوان IP.\n\nEndpoint to get IP address.",
+      "line": 53
+    },
+    {
+      "file": "src/index.js",
+      "description": "نقطة النهاية لرفع الملفات.\n\nEndpoint for file upload.",
+      "line": 60
+    },
+    {
+      "file": "public/index.html",
+      "description": "الصفحة الرئيسية للتطبيق بواجهة عربية.\n\nMain application page with Arabic interface.",
+      "line": 1
+    },
+    {
+      "file": "public/style.css",
+      "description": "ملف التنسيقات (CSS) للواجهة.\n\nCSS file for the interface.",
+      "line": 1
+    },
+    {
+      "file": "public/script.js",
+      "description": "كود JavaScript للتفاعل مع الواجهة والـ API.\n\nJavaScript code for UI and API interaction.",
+      "line": 1
+    },
+    {
+      "file": "API.md",
+      "description": "توثيق شامل لجميع نقاط النهاية (API Endpoints).\n\nComprehensive documentation for all API endpoints.",
+      "line": 1
+    }
+  ]
+}
