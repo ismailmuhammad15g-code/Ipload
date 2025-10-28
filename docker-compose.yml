@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    container_name: ipload-bot
+    restart: unless-stopped
+    environment:
+      - BOT_TOKEN=7933653463:AAEQ7wrD-XH4p6SOSLpXfHo36PmW77AOKAo
+    volumes:
+      - ./data:/app/data
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

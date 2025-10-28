@@ -1,0 +1,15 @@
+[Unit]
+Description=Ipload Telegram Bot
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/opt/Ipload
+Environment="BOT_TOKEN=7933653463:AAEQ7wrD-XH4p6SOSLpXfHo36PmW77AOKAo"
+ExecStart=/usr/bin/python3 /opt/Ipload/bot.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
